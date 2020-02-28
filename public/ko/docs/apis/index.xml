@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>APIs on ZDoc</title>
+    <link>/ko/docs/apis/</link>
+    <description>Recent content in APIs on ZDoc</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Fri, 28 Feb 2020 00:36:39 +0900</lastBuildDate>
+    
+        <atom:link href="/ko/docs/apis/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>CROSS - RECIBOS</title>
+        <link>/ko/docs/apis/recibos/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>/ko/docs/apis/recibos/</guid>
+        <description>CROSS - RECIBOS v1.1.0  Scroll down for code samples, example requests and responses. Select a language for code samples from the tabs above or the mobile navigation menu.
+ API que recoge todas las funcionalidades relativas a los recibos gestionados por la Mutua Madrileña en sus distintos ramos.
+Base URLs:
+ https://$(catalog.host)/cross-recibos/api/v1  Email: Javier Moreno Lozano
+Authentication  API Key (clientIdHeader)  Parameter Name: X-IBM-Client-Id, in: header. student    Recibos Agrupa la funcionalidad relacionada a la operativa de recibos asociados a pólizas</description>
+      </item>
+      
+      <item>
+        <title>Rakam API Documentation</title>
+        <link>/ko/docs/apis/rakam/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>/ko/docs/apis/rakam/</guid>
+        <description>Rakam API Documentation v1.0  Scroll down for code samples, example requests and responses. Select a language for code samples from the tabs above or the mobile navigation menu.
+ An analytics platform API that lets you create your own analytics services.
+Base URLs:
+ //https://app.getrakam.com/  Email: Support
+License: Apache License 2.0
+Authentication   API Key (ui_read_key)
+ Parameter Name: undefined, in: header.    API Key (read_key)</description>
+      </item>
+      
+      <item>
+        <title>Swagger Petstore</title>
+        <link>/ko/docs/apis/petstore/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>/ko/docs/apis/petstore/</guid>
+        <description>Swagger Petstore v1.0.3  Scroll down for code samples, example requests and responses. Select a language for code samples from the tabs above or the mobile navigation menu.
+ This is a sample server Petstore server. You can find out more about Swagger at http://swagger.io or on irc.freenode.net, #swagger. For this sample, you can use the api key special-key to test the authorization filters.
+Base URLs:
+  https://petstore.swagger.io/v2
+  http://petstore.</description>
+      </item>
+      
+      <item>
+        <title>Swagger Petstore</title>
+        <link>/ko/docs/apis/prueba/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>/ko/docs/apis/prueba/</guid>
+        <description>Swagger Petstore v1.0.3  Scroll down for code samples, example requests and responses. Select a language for code samples from the tabs above or the mobile navigation menu.
+ This is a sample server Petstore server. You can find out more about Swagger at http://swagger.io or on irc.freenode.net, #swagger. For this sample, you can use the api key special-key to test the authorization filters.
+Base URLs:
+  https://petstore.swagger.io/v2
+  http://petstore.</description>
+      </item>
+      
+      <item>
+        <title>Swagger Petstore 2</title>
+        <link>/ko/docs/apis/petstore2/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>/ko/docs/apis/petstore2/</guid>
+        <description>Swagger Petstore v1.0.3  Scroll down for code samples, example requests and responses. Select a language for code samples from the tabs above or the mobile navigation menu.
+ This is a sample server Petstore server. You can find out more about Swagger at http://swagger.io or on irc.freenode.net, #swagger. For this sample, you can use the api key special-key to test the authorization filters.
+Base URLs:
+  https://petstore.swagger.io/v2
+  http://petstore.</description>
+      </item>
+      
+    
+  </channel>
+</rss>

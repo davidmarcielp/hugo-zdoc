@@ -1,4 +1,5 @@
-baseURL = "localhost:8080"
+# baseURL = "/davidmarcielp/"
+relativeurls = true
 title = "Hugo Zdoc Theme"
 theme = "zdoc"
 
