@@ -50,121 +50,6 @@ Everything about your Pets
 
 <a href="http://swagger.io">Find out more</a>
 
-## uploadFile
-
-<a id="opIduploadFile"></a>
-
-> Code samples
-
-```java
-URL obj = new URL("https://petstore.swagger.io/v2/pet/{petId}/uploadImage");
-HttpURLConnection con = (HttpURLConnection) obj.openConnection();
-con.setRequestMethod("POST");
-int responseCode = con.getResponseCode();
-BufferedReader in = new BufferedReader(
-    new InputStreamReader(con.getInputStream()));
-String inputLine;
-StringBuffer response = new StringBuffer();
-while ((inputLine = in.readLine()) != null) {
-    response.append(inputLine);
-}
-in.close();
-System.out.println(response.toString());
-
-```
-
-```go
-package main
-
-import (
-       "bytes"
-       "net/http"
-)
-
-func main() {
-
-    headers := map[string][]string{
-        "Content-Type": []string{"multipart/form-data"},
-        "Accept": []string{"application/json"},
-        "Authorization": []string{"Bearer {access-token}"},
-        
-    }
-
-    data := bytes.NewBuffer([]byte{jsonReq})
-    req, err := http.NewRequest("POST", "https://petstore.swagger.io/v2/pet/{petId}/uploadImage", data)
-    req.Header = headers
-
-    client := &http.Client{}
-    resp, err := client.Do(req)
-    // ...
-}
-
-```
-
-```javascript
-var headers = {
-  'Content-Type':'multipart/form-data',
-  'Accept':'application/json',
-  'Authorization':'Bearer {access-token}'
-
-};
-
-$.ajax({
-  url: 'https://petstore.swagger.io/v2/pet/{petId}/uploadImage',
-  method: 'post',
-
-  headers: headers,
-  success: function(data) {
-    console.log(JSON.stringify(data));
-  }
-})
-
-```
-
-`POST /pet/{petId}/uploadImage`
-
-*uploads an image*
-
-> Body parameter
-
-```yaml
-additionalMetadata: string
-file: string
-
-```
-
-<h3 id="uploadfile-parameters">Parameters</h3>
-
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|petId|path|integer(int64)|true|ID of pet to update|
-|body|body|object|false|none|
-|» additionalMetadata|body|string|false|Additional data to pass to server|
-|» file|body|string(binary)|false|file to upload|
-
-> Example responses
-
-> 200 Response
-
-```json
-{
-  "code": 0,
-  "type": "string",
-  "message": "string"
-}
-```
-
-<h3 id="uploadfile-responses">Responses</h3>
-
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|successful operation|[ApiResponse](#schemaapiresponse)|
-
-<aside class="warning">
-To perform this operation, you must be authenticated by means of one of the following methods:
-petstore_auth ( Scopes: write:pets read:pets )
-</aside>
-
 ## addPet
 
 <a id="opIdaddPet"></a>
@@ -958,7 +843,7 @@ For valid response try integer IDs with value >= 1 and <= 10. Other values will 
   "id": 0,
   "petId": 0,
   "quantity": 0,
-  "shipDate": "2020-03-05T15:17:18Z",
+  "shipDate": "2020-03-05T15:21:58Z",
   "status": "placed",
   "complete": true
 }
@@ -970,7 +855,7 @@ For valid response try integer IDs with value >= 1 and <= 10. Other values will 
   <id>0</id>
   <petId>0</petId>
   <quantity>0</quantity>
-  <shipDate>2020-03-05T15:17:18Z</shipDate>
+  <shipDate>2020-03-05T15:21:58Z</shipDate>
   <status>placed</status>
   <complete>true</complete>
 </Order>
@@ -1148,7 +1033,7 @@ $.ajax({
   "id": 0,
   "petId": 0,
   "quantity": 0,
-  "shipDate": "2020-03-05T15:17:18Z",
+  "shipDate": "2020-03-05T15:21:58Z",
   "status": "placed",
   "complete": true
 }
@@ -1169,7 +1054,7 @@ $.ajax({
   "id": 0,
   "petId": 0,
   "quantity": 0,
-  "shipDate": "2020-03-05T15:17:18Z",
+  "shipDate": "2020-03-05T15:21:58Z",
   "status": "placed",
   "complete": true
 }
@@ -1181,7 +1066,7 @@ $.ajax({
   <id>0</id>
   <petId>0</petId>
   <quantity>0</quantity>
-  <shipDate>2020-03-05T15:17:18Z</shipDate>
+  <shipDate>2020-03-05T15:21:58Z</shipDate>
   <status>placed</status>
   <complete>true</complete>
 </Order>
@@ -2112,7 +1997,7 @@ This operation does not require authentication
   "id": 0,
   "petId": 0,
   "quantity": 0,
-  "shipDate": "2020-03-05T15:17:18Z",
+  "shipDate": "2020-03-05T15:21:58Z",
   "status": "placed",
   "complete": true
 }
