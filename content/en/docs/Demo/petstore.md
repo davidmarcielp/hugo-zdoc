@@ -12,10 +12,13 @@ highlight_theme: darkula
 headingLevel: 2
 
 ---
+<strong style="color: red"> Modificando el MD </strong> 
 
 <h1 id="swagger-petstore">Swagger Petstore v1.0.3</h1>
 
 > Scroll down for code samples, example requests and responses. Select a language for code samples from the tabs above or the mobile navigation menu.
+
+<strong style="color: red"> Segunda modificacion </strong>
 
 This is a sample server Petstore server.  You can find out more about Swagger at [http://swagger.io](http://swagger.io) or on [irc.freenode.net, #swagger](http://swagger.io/irc/).  For this sample, you can use the api key `special-key` to test the authorization filters.
 
@@ -49,137 +52,6 @@ License: <a href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache 2.0</a
 Everything about your Pets
 
 <a href="http://swagger.io">Find out more</a>
-
-## addPet
-
-<a id="opIdaddPet"></a>
-
-> Code samples
-
-```java
-URL obj = new URL("https://petstore.swagger.io/v2/pet");
-HttpURLConnection con = (HttpURLConnection) obj.openConnection();
-con.setRequestMethod("POST");
-int responseCode = con.getResponseCode();
-BufferedReader in = new BufferedReader(
-    new InputStreamReader(con.getInputStream()));
-String inputLine;
-StringBuffer response = new StringBuffer();
-while ((inputLine = in.readLine()) != null) {
-    response.append(inputLine);
-}
-in.close();
-System.out.println(response.toString());
-
-```
-
-```go
-package main
-
-import (
-       "bytes"
-       "net/http"
-)
-
-func main() {
-
-    headers := map[string][]string{
-        "Content-Type": []string{"application/json"},
-        "Authorization": []string{"Bearer {access-token}"},
-        
-    }
-
-    data := bytes.NewBuffer([]byte{jsonReq})
-    req, err := http.NewRequest("POST", "https://petstore.swagger.io/v2/pet", data)
-    req.Header = headers
-
-    client := &http.Client{}
-    resp, err := client.Do(req)
-    // ...
-}
-
-```
-
-```javascript
-var headers = {
-  'Content-Type':'application/json',
-  'Authorization':'Bearer {access-token}'
-
-};
-
-$.ajax({
-  url: 'https://petstore.swagger.io/v2/pet',
-  method: 'post',
-
-  headers: headers,
-  success: function(data) {
-    console.log(JSON.stringify(data));
-  }
-})
-
-```
-
-`POST /pet`
-
-*Add a new pet to the store*
-
-> Body parameter
-
-```json
-{
-  "id": 0,
-  "category": {
-    "id": 0,
-    "name": "string"
-  },
-  "name": "doggie",
-  "photoUrls": [
-    "string"
-  ],
-  "tags": [
-    {
-      "id": 0,
-      "name": "string"
-    }
-  ],
-  "status": "available"
-}
-```
-
-```xml
-<?xml version="1.0" encoding="UTF-8" ?>
-<Pet>
-  <id>0</id>
-  <category>
-    <id>0</id>
-    <name>string</name>
-  </category>
-  <name>doggie</name>
-  <photoUrls>string</photoUrls>
-  <tags>
-    <id>0</id>
-    <name>string</name>
-  </tags>
-  <status>available</status>
-</Pet>
-```
-
-<h3 id="addpet-parameters">Parameters</h3>
-
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|body|body|[Pet](#schemapet)|true|Pet object that needs to be added to the store|
-
-<h3 id="addpet-responses">Responses</h3>
-
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|405|[Method Not Allowed](https://tools.ietf.org/html/rfc7231#section-6.5.5)|Invalid input|None|
-
-<aside class="warning">
-To perform this operation, you must be authenticated by means of one of the following methods:
-petstore_auth ( Scopes: write:pets read:pets )
-</aside>
 
 ## updatePet
 
@@ -843,7 +715,7 @@ For valid response try integer IDs with value >= 1 and <= 10. Other values will 
   "id": 0,
   "petId": 0,
   "quantity": 0,
-  "shipDate": "2020-03-05T15:21:58Z",
+  "shipDate": "2020-03-05T15:54:51Z",
   "status": "placed",
   "complete": true
 }
@@ -855,7 +727,7 @@ For valid response try integer IDs with value >= 1 and <= 10. Other values will 
   <id>0</id>
   <petId>0</petId>
   <quantity>0</quantity>
-  <shipDate>2020-03-05T15:21:58Z</shipDate>
+  <shipDate>2020-03-05T15:54:51Z</shipDate>
   <status>placed</status>
   <complete>true</complete>
 </Order>
@@ -1033,7 +905,7 @@ $.ajax({
   "id": 0,
   "petId": 0,
   "quantity": 0,
-  "shipDate": "2020-03-05T15:21:58Z",
+  "shipDate": "2020-03-05T15:54:51Z",
   "status": "placed",
   "complete": true
 }
@@ -1054,7 +926,7 @@ $.ajax({
   "id": 0,
   "petId": 0,
   "quantity": 0,
-  "shipDate": "2020-03-05T15:21:58Z",
+  "shipDate": "2020-03-05T15:54:51Z",
   "status": "placed",
   "complete": true
 }
@@ -1066,7 +938,7 @@ $.ajax({
   <id>0</id>
   <petId>0</petId>
   <quantity>0</quantity>
-  <shipDate>2020-03-05T15:21:58Z</shipDate>
+  <shipDate>2020-03-05T15:54:51Z</shipDate>
   <status>placed</status>
   <complete>true</complete>
 </Order>
@@ -1997,7 +1869,7 @@ This operation does not require authentication
   "id": 0,
   "petId": 0,
   "quantity": 0,
-  "shipDate": "2020-03-05T15:21:58Z",
+  "shipDate": "2020-03-05T15:54:51Z",
   "status": "placed",
   "complete": true
 }
