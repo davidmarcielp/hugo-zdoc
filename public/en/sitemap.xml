@@ -32,11 +32,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ko"
-                href="/ko/docs/gettingstarted/basicusage/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="en"
                 href="/docs/gettingstarted/basicusage/"
                 />
@@ -79,11 +74,6 @@
                 rel="alternate"
                 hreflang="es"
                 href="/es/docs/gettingstarted/configuration/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="/ko/docs/gettingstarted/configuration/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -132,11 +122,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ko"
-                href="/ko/docs/gettingstarted/installation/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="en"
                 href="/docs/gettingstarted/installation/"
                 />
@@ -179,11 +164,6 @@
                 rel="alternate"
                 hreflang="es"
                 href="/es/docs/gettingstarted/quickstart/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="/ko/docs/gettingstarted/quickstart/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -232,11 +212,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ko"
-                href="/ko/docs/gettingstarted/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="en"
                 href="/docs/gettingstarted/"
                 />
@@ -254,11 +229,6 @@
                 rel="alternate"
                 hreflang="es"
                 href="/es/docs/contentmanagement/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="/ko/docs/contentmanagement/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -307,11 +277,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ko"
-                href="/ko/docs/relatedcontent/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="en"
                 href="/docs/relatedcontent/"
                 />
@@ -337,11 +302,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ko"
-                href="/ko/docs/pageresources/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="en"
                 href="/docs/pageresources/"
                 />
@@ -354,11 +314,6 @@
                 rel="alternate"
                 hreflang="es"
                 href="/es/docs/pagebundles/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="/ko/docs/pagebundles/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -377,11 +332,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ko"
-                href="/ko/docs/contentfortmats/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="en"
                 href="/docs/contentfortmats/"
                 />
@@ -397,11 +347,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ko"
-                href="/ko/docs/imageprocessing/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="en"
                 href="/docs/imageprocessing/"
                 />
@@ -414,11 +359,6 @@
                 rel="alternate"
                 hreflang="es"
                 href="/es/docs/contentmanagement/shortcodes/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="/ko/docs/contentmanagement/shortcodes/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -444,11 +384,6 @@
                 rel="alternate"
                 hreflang="es"
                 href="/es/docs/contentmanagement/frontmatter/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="/ko/docs/contentmanagement/frontmatter/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -530,6 +465,16 @@
   <url>
     <loc>/protected/</loc>
     <lastmod>2020-01-11T14:09:21+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/protected/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/protected/"
+                />
   </url>
   
   <url>
@@ -639,11 +584,6 @@
                 rel="alternate"
                 hreflang="es"
                 href="/es/docs/contentmanagement/sections/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="/ko/docs/contentmanagement/sections/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -831,11 +771,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ko"
-                href="/ko/docs/apis/recibos/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="en"
                 href="/docs/apis/recibos/"
                 />
@@ -889,36 +824,12 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ko"
-                href="/ko/docs/apis/petstore/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="en"
                 href="/docs/apis/petstore/"
                 />
   </url>
   
   <url>
-    <loc>/docs/apis/prueba/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/docs/apis/prueba/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="/ko/docs/apis/prueba/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/docs/apis/prueba/"
-                />
-  </url>
-  
-  <url>
     <loc>/protected/apis/petstore/</loc>
   </url>
   
@@ -932,25 +843,6 @@
   
   <url>
     <loc>/protected/apis/prueba/</loc>
-  </url>
-  
-  <url>
-    <loc>/docs/apis/petstore2/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/docs/apis/petstore2/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="/ko/docs/apis/petstore2/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/docs/apis/petstore2/"
-                />
   </url>
   
   <url>

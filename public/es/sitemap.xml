@@ -32,11 +32,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ko"
-                href="/ko/docs/gettingstarted/basicusage/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="es"
                 href="/es/docs/gettingstarted/basicusage/"
                 />
@@ -69,11 +64,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="/docs/gettingstarted/configuration/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="/ko/docs/gettingstarted/configuration/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -112,11 +102,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ko"
-                href="/ko/docs/gettingstarted/installation/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="es"
                 href="/es/docs/gettingstarted/installation/"
                 />
@@ -152,11 +137,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ko"
-                href="/ko/docs/gettingstarted/quickstart/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="es"
                 href="/es/docs/gettingstarted/quickstart/"
                 />
@@ -183,17 +163,17 @@
   </url>
   
   <url>
+    <loc>/es/docs/apis/recibos/</loc>
+    <lastmod>2020-02-28T00:36:39+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/es/docs/gettingstarted/</loc>
     <lastmod>2020-01-28T00:34:39+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
                 href="/docs/gettingstarted/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="/ko/docs/gettingstarted/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -209,11 +189,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="/docs/contentmanagement/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="/ko/docs/contentmanagement/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -252,11 +227,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ko"
-                href="/ko/docs/relatedcontent/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="es"
                 href="/es/docs/relatedcontent/"
                 />
@@ -269,11 +239,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="/docs/pageresources/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="/ko/docs/pageresources/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -292,11 +257,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ko"
-                href="/ko/docs/pagebundles/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="es"
                 href="/es/docs/pagebundles/"
                 />
@@ -309,11 +269,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="/docs/contentfortmats/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="/ko/docs/contentfortmats/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -332,11 +287,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ko"
-                href="/ko/docs/imageprocessing/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="es"
                 href="/es/docs/imageprocessing/"
                 />
@@ -352,11 +302,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ko"
-                href="/ko/docs/contentmanagement/shortcodes/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="es"
                 href="/es/docs/contentmanagement/shortcodes/"
                 />
@@ -369,11 +314,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="/docs/contentmanagement/frontmatter/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="/ko/docs/contentmanagement/frontmatter/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -439,6 +379,21 @@
                 rel="alternate"
                 hreflang="es"
                 href="/es/docs/"
+                />
+  </url>
+  
+  <url>
+    <loc>/es/protected/</loc>
+    <lastmod>2020-01-11T14:09:21+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/protected/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/protected/"
                 />
   </url>
   
@@ -549,11 +504,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="/docs/contentmanagement/sections/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="/ko/docs/contentmanagement/sections/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -723,6 +673,10 @@
   </url>
   
   <url>
+    <loc>/es/docs/apis/openapi2/</loc>
+  </url>
+  
+  <url>
     <loc>/es/docs/apis/recibos/</loc>
     <xhtml:link
                 rel="alternate"
@@ -731,14 +685,13 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ko"
-                href="/ko/docs/apis/recibos/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="es"
                 href="/es/docs/apis/recibos/"
                 />
+  </url>
+  
+  <url>
+    <loc>/es/docs/apis/openapi/</loc>
   </url>
   
   <url>
@@ -769,11 +722,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ko"
-                href="/ko/docs/apis/petstore/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="es"
                 href="/es/docs/apis/petstore/"
                 />
@@ -781,40 +729,10 @@
   
   <url>
     <loc>/es/docs/apis/prueba/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/docs/apis/prueba/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="/ko/docs/apis/prueba/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/docs/apis/prueba/"
-                />
   </url>
   
   <url>
     <loc>/es/docs/apis/petstore2/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/docs/apis/petstore2/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="/ko/docs/apis/petstore2/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/docs/apis/petstore2/"
-                />
   </url>
   
 </urlset>
