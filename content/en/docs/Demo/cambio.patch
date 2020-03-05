@@ -1,0 +1,18 @@
+diff --git a/content/en/docs/Demo/auth.md b/content/en/docs/Demo/auth.md
+index 8eb2f31..d4b715b 100644
+--- a/content/en/docs/Demo/auth.md
++++ b/content/en/docs/Demo/auth.md
+@@ -12,8 +12,13 @@ headingLevel: 2
+ 
+ ---
+ 
++<strong style="color: red"> Modificando el MD </strong>
++
+ <h1 id="authn-api">Authn API v1.4.0</h1>
+ 
++<strong style="color: red"> Segunda modificacion </strong>
++
++
+ > Scroll down for code samples, example requests and responses. Select a language for code samples from the tabs above or the mobile navigation menu.
+ 
+ This is the API for authn in MM
