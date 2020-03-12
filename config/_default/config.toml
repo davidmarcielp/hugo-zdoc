@@ -1,10 +1,10 @@
-# baseURL = "/davidmarcielp/"
+#baseURL = "localhost:1313/"
 relativeurls = true
 title = "Hugo Zdoc Theme"
 theme = "zdoc"
 
 defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = false
+defaultContentLanguageInSubdir = true
 hasCJKLanguage = false
 
 copyright = "&copy;{year}, All Rights Reserved"
@@ -34,10 +34,9 @@ disableKinds = ["taxonomyTerm"]
     startLevel = 2
 
 [outputs]
-  page = ["HTML", "SearchIndex"]
-  home = ["HTML", "RSS", "SearchIndex"]
-  section = ["HTML", "RSS", "SearchIndex"]
-  taxonomy = ["HTML", "RSS", "SearchIndex"]
+  page = ["HTML"] # A player
+  section = ["HTML", "SearchIndex"] # All players
+  home = ["HTML"] # Everything
 
 [outputFormats]
   [outputFormats.SearchIndex]
