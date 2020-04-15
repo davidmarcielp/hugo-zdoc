@@ -9,11 +9,10 @@ includes: []
 search: true
 highlight_theme: darkula
 headingLevel: 2
-version: 1.3.1
 
 ---
 
-<h1 id="authn-api">Authn API v1.4.0</h1>
+<h1 id="authn-api">Authn API v1.4.1</h1>
 
 > Scroll down for code samples, example requests and responses. Select a language for code samples from the tabs above or the mobile navigation menu.
 

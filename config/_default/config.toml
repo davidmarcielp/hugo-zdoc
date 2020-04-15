@@ -1,6 +1,6 @@
 #baseURL = "localhost:1313/"
 relativeurls = true
-title = "Hugo Zdoc Theme"
+title = "MÁSMÓVIL API PORTAL"
 theme = "zdoc"
 
 defaultContentLanguage = "en"
