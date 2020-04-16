@@ -1,7 +1,7 @@
 logo = true
-logoText = "Más Móvil"
+logoText = "MÁSMÓVIL"
 logoType = "short" # long, short
-description = "Más Móvil portal API."
+description = "MÁSMÓVIL portal API."
 
 themeOptions = ["light", "dark"]
 

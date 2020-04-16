@@ -1,5 +1,5 @@
 ---
-title: MasMovil Ticketing API - Inbound (External Systems > MasMovil)
+title: MasMovil Ticketing API - Inbound
 language_tabs:
   - '''java': Java'
   - '''go': Go'
